@@ -4,9 +4,15 @@
     background-color: purple;
     text-align: center;
 }
-#dispositivo {
-    font-size: 200px;
+.mobile {
+    font-size: 60px;
     color: plum;
+}
+.tablet {
+    display: none;
+}
+.desktop {
+    display: none;
 }
 
 @media (min-width: 800px) {
@@ -14,14 +20,29 @@
         height: 200px;
         background-color: violet;
     }
-    #dispositivo{
+    .mobile{
         display: none;
+    }
+    .tablet {
+        display: inline;
+        font-size: 70px;
+        color: aquamarine;
+        text-align: center;
     }
 }
 @media (min-width: 1228px) {
     .barra{
         height: 200px;
         background-color: blueviolet;
+    }
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: inline;
+        font-size: 80px;
+        color: aqua;
+        text-align: center;
     }
 }
 .rodape {

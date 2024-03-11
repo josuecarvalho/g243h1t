@@ -1,7 +1,7 @@
 .barra {
     width: 100%;
     height: 100%;
-    background-color: purple;
+    background-color: rgb(19, 19, 19);
     text-align: center;
 }
 .mobile {
@@ -15,10 +15,23 @@
     display: none;
 }
 
+ .conteudo{
+    width: 100%;
+    background-color: blueviolet;
+ }
+  .botoes {
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;
+    font-size: 22px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+
 @media (min-width: 800px) {
     .barra{
         height: 200px;
-        background-color: violet;
+        background-color: rgb(12, 12, 12);
     }
     .mobile{
         display: none;
@@ -26,14 +39,14 @@
     .tablet {
         display: inline;
         font-size: 70px;
-        color: aquamarine;
+        color: rgb(0, 0, 0);
         text-align: center;
     }
 }
 @media (min-width: 1228px) {
     .barra{
         height: 200px;
-        background-color: blueviolet;
+        background-color: rgb(2, 2, 2);
     }
     .tablet {
         display: none;
@@ -41,7 +54,7 @@
     .desktop {
         display: inline;
         font-size: 80px;
-        color: aqua;
+        color: rgb(165, 12, 179);
         text-align: center;
     }
 }
